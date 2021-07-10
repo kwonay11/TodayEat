@@ -7,8 +7,10 @@
     text-align: center;
     border-radius: 20px;
     /* 가상 둥그렇게 */
-    font-size: 24px;
+    font-size: 27px;
     width: 80%;
+    color: purple;
+    
 }
 
 .answerList{
@@ -17,7 +19,7 @@
     border-radius: 20px;
     display: block;
     /* block이면 한줄에 하나씩 나옴 */
-    width: 100%;
+    width: 80%;
     border:0px;
     font-size:20px;
 
@@ -25,7 +27,7 @@
 .answerList:hover, .answerList:focus{
 
     background-color:rgb(164, 122, 192);
-    color:whitesmoke;
+    color:white;
 }
 
 .status{
@@ -40,10 +42,11 @@
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e570e7+0,c85ec7+47,a849a3+100;Pink+3D+%233 */
    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e771b2+0,c85e95+47,a94977+100 */
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a871e7+0,935ec8+47,7c49a9+100 */
-    background: #a871e7; /* Old browsers */
-    background: -moz-linear-gradient(top,  #a871e7 0%, #935ec8 47%, #7c49a9 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #a871e7 0%,#935ec8 47%,#7c49a9 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #a871e7 0%,#935ec8 47%,#7c49a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a871e7', endColorstr='#7c49a9',GradientType=0 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c596e6+0,b387cf+47,a172ba+100 */
+    background: #c596e6; /* Old browsers */
+    background: -moz-linear-gradient(top,  #c596e6 0%, #b387cf 47%, #a172ba 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #c596e6 0%,#b387cf 47%,#a172ba 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #c596e6 0%,#b387cf 47%,#a172ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c596e6', endColorstr='#a172ba',GradientType=0 ); /* IE6-9 */
 
 }
