@@ -2,8 +2,10 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 12;
-const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+//질문 갯수
+const endPoint = 7;
+//음식 갯수
+const select = [0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0,0,0];
 
 function calResult(){
   console.log(select);
