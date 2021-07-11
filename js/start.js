@@ -65,14 +65,9 @@ function addAnswer(answerText, qIdx, idx){
     setTimeout(() => {
       var target = qnaList[qIdx].a[idx].type;
       for(let i = 0; i < target.length; i++){
-          //한식,일식,중식일때 가중치 더 많이
-          if (i === 1){
-            select[target[i]] += 2;
-          }
-          if (i === 5){
-            select[target[i]] += 2;
-          }
+    
         select[target[i]] += 1;
+        
       }
 
       for(let i = 0; i < children.length; i++){
