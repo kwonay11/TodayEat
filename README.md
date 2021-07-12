@@ -1,4 +1,4 @@
-# '오늘 뭐 먹지?' ToyProject
+# '오늘 뭐 먹지?'
 
 https://todayeat.netlify.app/
 
