@@ -24,7 +24,7 @@ html, css, javascript 사용
 
   * 모바일
 
-    <img src="README.assets/image-20210712210647319.png" alt="image-20210712210647319" style="zoom:67%;" />
+    <img src="README.assets/image-20210712210647319.png" alt="image-20210712210647319" style="zoom: 33%;" />
 
 * 선택지 선택
 
@@ -34,7 +34,7 @@ html, css, javascript 사용
 
   * 모바일
 
-    <img src="README.assets/image-20210712210808893.png" alt="image-20210712210808893" style="zoom:67%;" />
+    <img src="README.assets/image-20210712210808893.png" alt="image-20210712210808893" style="zoom: 33%;" />
 
 * 결과
 
@@ -44,14 +44,13 @@ html, css, javascript 사용
 
   * 모바일
 
-    image-20210712210952106
-
-<img src="README.assets/image-20210712211051894.png" alt="image-20210712211051894" style="zoom:50%;" />
-
-<img src="README.assets/image-20210712211100408.png" alt="image-20210712211100408" style="zoom:50%;" />
-
-<img src="README.assets/image-20210712211106654.png" alt="image-20210712211106654" style="zoom:50%;" />
-
+    <img src="README.assets/image-20210712211051894.png" alt="image-20210712211051894" style="zoom: 33%;" />
+    
+    <img src="README.assets/image-20210712211100408.png" alt="image-20210712211100408" style="zoom: 33%;" />
+    
+    <img src="README.assets/image-20210712211106654.png" alt="image-20210712211106654" style="zoom: 33%;" />
+  
 * 카카오톡 결과 공유 
 
-  ![image-20210712211725662](README.assets/image-20210712211725662.png)
+  <img src="README.assets/image-20210712211725662.png" alt="image-20210712211725662" style="zoom:33%;" />
+
