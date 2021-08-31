@@ -3,9 +3,9 @@ const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
 //질문 갯수
-const endPoint = 7;
+const endPoint = 9;
 //음식 갯수
-const select = [0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0,0,0];
+const select = [ 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function calResult(){
   console.log(select);
@@ -37,8 +37,8 @@ function goResult(){
     result.style.WebkitAnimation = "fadeIn 1s";
     result.style.animation = "fadeIn 1s";
     setTimeout(() => {
-      qna.style.display = "none";
-      result.style.display = "block"
+      qna.style.display = "none";//안보이게
+      result.style.display = "block" //아래에 보이게
     }, 450)})
     setResult();
 }
@@ -67,6 +67,11 @@ function addAnswer(answerText, qIdx, idx){
       for(let i = 0; i < target.length; i++){
     
         select[target[i]] += 1;
+        // 2번,4,6번 질문에 대한 것은 중요한 질문이기 떄문에 가중치를 1 더 줌
+        if(qIdx === 1 || qIdx === 3 || qIdx === 5){
+          select[target[i]] += 1;
+    
+        }
         
       }
 
@@ -79,7 +84,8 @@ function addAnswer(answerText, qIdx, idx){
 }
 
 function goNext(qIdx){
-  if(qIdx === endPoint){
+  // 질문 인덱스가 마지막이라면 결과화면
+  if(qIdx === endPoint){ 
     goResult();
     return;
   }
@@ -89,11 +95,13 @@ function goNext(qIdx){
   for(let i in qnaList[qIdx].a){
     addAnswer(qnaList[qIdx].a[i].answer, qIdx, i);
   }
+  // 상태바 전체 100%에서 9개 나눈것들이 점점 채워짐
   var status = document.querySelector('.statusBar');
   status.style.width = (100/endPoint) * (qIdx+1) + '%';
 }
 
 function begin(){
+
   main.style.WebkitAnimation = "fadeOut 1s";
   main.style.animation = "fadeOut 1s";
   setTimeout(() => {
