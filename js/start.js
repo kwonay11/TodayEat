@@ -115,3 +115,7 @@ function begin(){
     goNext(qIdx);
   }, 450);
 }
+
+function moveHome(){
+  location.href="/index.html";
+}
